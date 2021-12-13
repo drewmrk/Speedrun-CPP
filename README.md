@@ -101,5 +101,5 @@ for (int i = 0; i < (int) ints.size(); i++) {
 }
 
 // Combination
-for (int{}; i < (int) ints.size(); i++) cout << ints[i];
+for (int i{}; i < (int) ints.size(); i++) cout << ints[i];
 ```
