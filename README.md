@@ -103,3 +103,24 @@ for (int i = 0; i < (int) ints.size(); i++) {
 // Combination
 for (int i{}; i < (int) ints.size(); i++) cout << ints[i];
 ```
+
+### Auto
+
+Don't feel like specifying the type, no problem! In some instances, C++ can infer the type for you.
+
+Examples:
+
+```cpp
+// Before
+for (int i = 0; i < 64; i++) {
+  cout << i;
+}
+
+// After
+for (auto i = 0; i < 64; i++) {
+  cout << i;
+}
+
+// Combination
+for (auto i{}; i < 64; i++) cout << i;
+```
