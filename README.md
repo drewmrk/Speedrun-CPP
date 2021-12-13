@@ -22,6 +22,14 @@ It will instead look like following:
 if (1 == 1) return 3;
 ```
 
+Every trick will also have the following by default:
+
+```cpp
+#include <bits/stdc++.h>
+
+using namespace std;
+```
+
 ## Tips/Tricks
 
 ### No braces
