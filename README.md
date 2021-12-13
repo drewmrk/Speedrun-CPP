@@ -122,5 +122,5 @@ for (auto i = 0; i < 64; i++) {
 }
 
 // Combination
-for (auto i{}; i < 64; i++) cout << i;
+for (auto i{0}; i < 64; i++) cout << i;
 ```
